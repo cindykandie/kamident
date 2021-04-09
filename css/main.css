@@ -278,9 +278,13 @@ div.content ol {
   list-style: none;
 }
 
+.reviews {
+  background-color: #e0f1f1;
+}
+
 .reviews header h2 {
   text-align: center;
-  margin-top: 50px;
+  padding-top: 50px;
 }
 
 .reviews .content p {
@@ -386,5 +390,22 @@ div.content ol {
   width: 90%;
   border-radius: 10px;
   padding: 0;
+}
+
+.afters .gallery a img figcaption {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.afters .gallery a:hover {
+  color: #d2f9fa;
 }
 /*# sourceMappingURL=main.css.map */
