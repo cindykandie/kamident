@@ -432,13 +432,14 @@ div.content ol {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 75vw;
 }
 
 .form-map form {
   width: 50vw;
+  padding-left: 50px;
 }
 
 .form-map form h2 {
@@ -472,11 +473,11 @@ div.content ol {
 }
 
 .form-map form .map {
-  width: 50vw;
+  width: 30%;
 }
 
 .form-map form .map img {
-  width: 100vw;
+  width: 70%;
 }
 
 .addresses {
@@ -559,9 +560,10 @@ div.content ol {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding-left: 30px;
 }
 
 footer {

@@ -347,11 +347,13 @@ div.content{
     display: flex;
     min-height: 100vh;
     background-color: $primary-color;
-    padding: 50px;
+    padding:50px;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
+    width: 75vw;
     form{
         width: 50vw;
+        padding-left: 50px;
         h2{
             text-decoration: underline;
             
@@ -385,9 +387,9 @@ div.content{
              
             }
     .map{
-        width: 50vw;
+        width: 30%;
         img{
-            width: 100vw;
+            width: 70%;
         }
     }
 }
@@ -443,8 +445,8 @@ div.content{
         .location{
             display: flex;
             flex-direction: column;
-            justify-content: space-evenly;
-           
+            justify-content: flex-end;
+            padding-left: 30px;
         }
     
 }

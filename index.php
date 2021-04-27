@@ -163,7 +163,42 @@
 			<form class="" action="index.php#contact" method="POST">
 			<h2>Request appointment or Make inquiries.</h2>
 
-			<div class="response">
+			
+				
+
+				<br>
+				<label for="Name">First Name</label> <br>
+				<input type="text" name="firstname" value="" required="required" placeholder="Your First Name"> <br>
+				<label for="Name">Last Name</label> <br>
+				<input type="text" name="lastname" value="" required placeholder="Your Last Name"><br>
+				<br>
+
+				<label for="Email">Email</label> <br>
+				<input name="email" type="email" placeholder="Your Email Address"><br>
+				<br>
+
+				<label for="Phone Number">Phone Number</label> <br>
+				<input placeholder="Your Phone Number" type="tel" name="tel"><br>
+				<br>
+
+				<label for="method">How can we get back to you?</label> <br>
+				
+				<input type="radio" id="Email me" name="method" value="Email me">
+				<label for="male">Email me</label><br>
+
+				<input type="radio" id="Call me" name="method" value="Call me">
+				<label for="male">Call me</label><br>
+
+				<input type="radio" id="Text me" name="method" value="Text me">
+				<label for="male">Text me</label><br>
+				<br>
+				
+
+				<label for="">Message</label> <br>
+				<textarea name="message" id="" cols="30" rows="6" placeholder="Type Here..."></textarea><br>
+
+				<input name="submit" value="submit" type="submit"> 
+				<div class="response">
 					<?php
 					$firstname = $_POST['firstname'];
 					$lastname = $_POST['lastname'];
@@ -206,46 +241,14 @@
 										
 				</div>
 				
-
-				<br>
-				<label for="Name">First Name</label> <br>
-				<input type="text" name="firstname" value="" required="required" placeholder="Your First Name"> <br>
-				<label for="Name">Last Name</label> <br>
-				<input type="text" name="lastname" value="" required placeholder="Your Last Name"><br>
-				<br>
-
-				<label for="Email">Email</label> <br>
-				<input name="email" type="email" placeholder="Your Email Address"><br>
-				<br>
-
-				<label for="Phone Number">Phone Number</label> <br>
-				<input placeholder="Your Phone Number" type="tel" name="tel"><br>
-				<br>
-
-				<label for="method">How can we get back to you?</label> <br>
-				
-				<input type="radio" id="Email me" name="method" value="Email me">
-				<label for="male">Email me</label><br>
-
-				<input type="radio" id="Call me" name="method" value="Call me">
-				<label for="male">Call me</label><br>
-
-				<input type="radio" id="Text me" name="method" value="Text me">
-				<label for="male">Text me</label><br>
-				<br>
-				
-
-				<label for="">Message</label> <br>
-				<textarea name="message" id="" cols="30" rows="6" placeholder="Type Here..."></textarea><br>
-
-				<input name="submit" value="submit" type="submit"> 
-				
 		   </form>
 	
-			<div class="map">
-				<img src="images/map.jpg" alt="">
+		   <div class="map" style="width: 50%">
+		   <iframe width="70%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Kamident%20Dental%20Clinic,%20Thika%20Road,%20Ruiru+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
+		   </iframe>
+		   <!-- <a href="https://www.maps.ie/draw-radius-circle-map/">Google radius map</a> -->
+		   </div>
 
-			</div>
 	</section>
 
 					
@@ -283,9 +286,11 @@
 
 		<div class="location">
 			<p>Githurai 45, Nairobi, Kenya</p>
-			<a href="#">
-				<img src="images/map2.jpg" alt="">
-			</a>
+			<div class="map" style="width: 50%">
+		   <iframe width="100%" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Kamident%20Dental%20Clinic,%20Thika%20Road,%20Ruiru+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
+		   </iframe>
+		   <!-- <a href="https://www.maps.ie/draw-radius-circle-map/">Google radius map</a> -->
+		   </div>
 		</div>
 	</section>
 				
